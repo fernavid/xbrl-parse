@@ -149,5 +149,5 @@ class Document:
 	def __str__(self):
 		return str(self.data)
 
-data = Company('MSFT')
-print data.get_series_from_id('Assets')['root']
+#data = Company('MSFT')
+#print data.get_series_from_id('Assets')['root']
